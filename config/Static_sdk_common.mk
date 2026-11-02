@@ -1,12 +1,12 @@
-# Permissions for lineage sdk services
+# Permissions for static sdk services
 PRODUCT_COPY_FILES += \
-    vendor/static/config/permissions/org.lineageos.globalactions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.globalactions.xml \
-    vendor/static/config/permissions/org.lineageos.hardware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.hardware.xml \
-    vendor/static/config/permissions/org.lineageos.health.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.health.xml \
-    vendor/static/config/permissions/org.lineageos.livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.livedisplay.xml \
-    vendor/static/config/permissions/org.lineageos.profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.profiles.xml \
-    vendor/static/config/permissions/org.lineageos.settings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.settings.xml \
-    vendor/static/config/permissions/org.lineageos.trust.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.trust.xml
+    vendor/static/config/permissions/org.staticos.globalactions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.globalactions.xml \
+    vendor/static/config/permissions/org.staticos.hardware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.hardware.xml \
+    vendor/static/config/permissions/org.statics.health.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.health.xml \
+    vendor/static/config/permissions/org.staticos.livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.livedisplay.xml \
+    vendor/static/config/permissions/org.staticos.profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.profiles.xml \
+    vendor/static/config/permissions/org.staticos.settings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.settings.xml \
+    vendor/static/config/permissions/org.staticos.trust.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.staticos.trust.xml
 
 # Static Platform Library
 PRODUCT_PACKAGES += \
